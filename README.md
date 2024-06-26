@@ -10,3 +10,11 @@ Utilizing Computer Vision to decide whether food is mixed enough compared to des
 <hr>
 <h2>Utilizing Hue Entropy</h2>
 Key idea to solving this problem is Using Hue compoment of an image. Convert the RGB Image into HSI Image, Getting Hue, Saturation, Intensity information. Hue is mainly used to define what color the bit is. By calculating the Entropy of Hue, we get to know how diverse the colors are in an image.
+
+<hr>
+<h2>Image Sources</h2>
+Image used in this project is both collected from the Internet and created by our teammates.<br>
+Sources of Images collected from the Internet are the following:<br>
+https://www.youtube.com/watch?v=X7ozj9FPvNA<br>
+https://blog.naver.com/kutty1945/222251561774
+https://www.10000recipe.com/recipe/1395916
