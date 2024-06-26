@@ -12,6 +12,13 @@ Utilizing Computer Vision to decide whether food is mixed enough compared to des
 Key idea to solving this problem is Using Hue compoment of an image. Convert the RGB Image into HSI Image, Getting Hue, Saturation, Intensity information. Hue is mainly used to define what color the bit is. By calculating the Entropy of Hue, we get to know how diverse the colors are in an image.
 
 <hr>
+<h2>Acknowledgement</h2>
+This system does not guarantee correct analysis of given image. The result could differ from the changes in light setting, resolution of the camera, image noise, unwanted parts such as plate included in the image, etc. <br>
+<img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/6ad15e4a-bf9f-4d99-aee2-34739e48b7e0" width="41%" height="41%" title="System Decision Fault Example"> &nbsp; &nbsp;
+<img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/fdeb09a6-d12e-4cd9-a5a5-be7a35558fd6" width="35%" height="35%" title="Entroy Graph"> 
+
+
+<hr>
 <h2>Image Sources</h2>
 Image used in this project is both collected from the Internet and created by our teammates.<br>
 Sources of Images collected from the Internet are the following:<br>
