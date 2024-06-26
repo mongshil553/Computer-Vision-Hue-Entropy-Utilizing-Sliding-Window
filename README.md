@@ -3,8 +3,8 @@ Utilizing Computer Vision to decide whether food is mixed enough compared to des
 
 <hr>
 <h2>Result</h2>
-<img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/77074edb-4e76-4d7e-a113-cd6257a02e17" width="45%" height="45%" title="System Decision 1"> &nbsp;&nbsp;
-<img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/e867d928-8eb7-4f21-b75f-5a7f0dcd7a10" width="41%" height="41%" title="System Decision 2">  <br><br>
+<img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/77074edb-4e76-4d7e-a113-cd6257a02e17" width="47%" height="47%" title="System Decision 1"> &nbsp;&nbsp;
+<img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/e867d928-8eb7-4f21-b75f-5a7f0dcd7a10" width="43%" height="43%" title="System Decision 2">  <br><br>
 When given a standard image, the system decides whether entry image is well mixed or lacks mixed level than the standard image.<br><br><br>
 
 <img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/43cfe5a0-c37d-4eb8-8264-6b7c6c6cd4e2" width="45%" height="45%" title="System Decision 3">
