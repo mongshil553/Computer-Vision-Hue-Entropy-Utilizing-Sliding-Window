@@ -20,9 +20,11 @@ Via Using 3 Kernels; 20% window size, 25% window size, 30% window size, we calcu
 <img src = "https://github.com/mongshil553/Computer-Vision-Sliding-Window-Hue-Entropy/assets/129606995/a76cc28c-bd4a-4040-a290-cf99e4643c58" width="35%" height="35%" title="Entropy Calculation Step"> <br><br>
 
 Following is the example of Entropies calculated for 4 image examples. <br>
-<img src = "https://github.com/mongshil553/Computer-Vision-Sliding-Window-Hue-Entropy/assets/129606995/391f7991-9650-43b7-bc0b-5077ed558797" width="100%" height="100%" title="Entropy image"> <br><br>
+<img src = "https://github.com/mongshil553/Computer-Vision-Sliding-Window-Hue-Entropy/assets/129606995/391f7991-9650-43b7-bc0b-5077ed558797" width="55%" height="55%" title="Entropy image">
+<img src = "https://github.com/mongshil553/Computer-Vision-Sliding-Window-Hue-Entropy/assets/129606995/9ee1c8ec-d062-4b87-8ee5-bad65870b42c" width="40%" height="40%" title="Standard Deviation for the images above">
 
 Finally, we calculate the standard deviation of the entropies in the image. If the standard deviation is high, it means that particular hue values occur in specific region, not prevailing in the entire image. On the other hand, if the standard deviation is low, hue entropies does not change a lot in the image thus, hue values are uniform throughout the entire image.
+
 
 
 
