@@ -27,11 +27,13 @@ Following is the example of Entropies calculated for 4 image examples. <br>
 Finally, we calculate the standard deviation of the entropies in the image. If the standard deviation is high, it means that particular hue values occur in specific region, not prevailing in the entire image. On the other hand, if the standard deviation is low, hue entropies does not change a lot in the image thus, hue values are uniform throughout the entire image.
 
 <hr>
-<h2>Code Structure</h2><br>
-1. Image Gaussian Filtering(Smoothing), Image subsampling(reduce size)<br>
-2. Convert RGB Image to HSV <br>
-3. Hue domain Median Filtering; Used for reducing noise in calculating entropy, where (1,2,3) entropy is higher than that of (2,2,2) <br>
-
+<h2>Code Structure</h2>
+1. Image Gaussian Filtering(Smoothing), Image subsampling(reduce size) <br><br>
+2. Convert RGB Image to HSV <br><br>
+3. Hue domain Median Filtering; Used for reducing noise in calculating entropy, where (1,2,3) entropy is higher than that of (2,2,2) <br><br>
+4. Evaluate entropy for each one of 3 sliding window, then calcuate the average which will be the entropy for that specific pixel. <br><br>
+5. Run Gaussian Filtering to reduce noise. <br><br>
+6. Calcuate standard deviation for the hue entropies. <br>
 
 <hr>
 <h2>Acknowledgement</h2>
