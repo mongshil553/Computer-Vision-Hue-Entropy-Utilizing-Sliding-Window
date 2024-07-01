@@ -31,7 +31,7 @@ Finally, we calculate the standard deviation of the entropies in the image. If t
 
 <hr>
 <h2>Acknowledgement</h2>
-This system does not guarantee correct analysis of given image. The result could differ from the changes in light setting, resolution of the camera, image noise, unwanted parts such as plate included in the image, etc. <br>
+This system does not guarantee correct analysis of given image. The result could differ from the changes in light setting, resolution of the camera, image noise, unwanted parts such as plate included in the image, etc. Also, the code is very dirty. <br>
 <img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/6ad15e4a-bf9f-4d99-aee2-34739e48b7e0" width="45%" height="45%" title="System Decision Fault Example"> &nbsp; &nbsp;
 <img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/fdeb09a6-d12e-4cd9-a5a5-be7a35558fd6" width="39%" height="39%" title="Entroy Graph"> 
 
