@@ -1,5 +1,5 @@
 <h1>Computer-Vision-Food-Mixture-Level-Decision-System</h1>
-Utilizing Computer Vision to decide whether food is mixed enough compared to designated sample image.<br>
+Utilizing Computer Vision to decide whether food is mixed enough compared to selected sample image.<br>
 
 <hr>
 <h2>Result</h2>
