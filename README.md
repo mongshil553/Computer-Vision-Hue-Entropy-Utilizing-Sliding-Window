@@ -13,7 +13,7 @@ This is an image of actually using a camera to evaluate whether current food is 
 
 <hr>
 <h2>Utilizing Hue Entropy</h2>
-Key idea to solving this problem is Using Hue compoment of an image. Convert the RGB Image into HSI Image, Getting Hue, Saturation, Intensity information. Hue is mainly used to define what color the bit is. By calculating the Entropy of Hue, we get to know how diverse the colors are in an image.
+Key idea to solving this problem is Using Hue compoment of an image. Convert the RGB Image into HSV Image, Getting Hue, Saturation, Value information. Hue is mainly used to define what color the bit is. By calculating the Entropy of Hue, we get to know how diverse the colors are in an image.
 
 Via Using 3 Kernels; 20% window size, 25% window size, 30% window size, we calculate the final entropy for the specific pixel. <br>
 <img src = "https://github.com/mongshil553/Computer-Vision-Sliding-Window-Hue-Entropy/assets/129606995/44263193-9888-4dd6-bb5d-1cbdd0cf30cc" width="45%" height="45%" title="Window Kernel Example"> &nbsp; &nbsp;
@@ -26,7 +26,11 @@ Following is the example of Entropies calculated for 4 image examples. <br>
 
 Finally, we calculate the standard deviation of the entropies in the image. If the standard deviation is high, it means that particular hue values occur in specific region, not prevailing in the entire image. On the other hand, if the standard deviation is low, hue entropies does not change a lot in the image thus, hue values are uniform throughout the entire image.
 
-
+<hr>
+<h2>Code Structure</h2><br>
+1. Image Gaussian Filtering(Smoothing), Image subsampling(reduce size)<br>
+2. Convert RGB Image to HSV <br>
+3. Hue domain Median Filtering; Used for reducing noise in calculating entropy, where (1,2,3) entropy is higher than that of (2,2,2) <br>
 
 
 <hr>
