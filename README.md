@@ -1,6 +1,8 @@
 <h1>Computer-Vision-Food-Mixture-Level-Decision-System</h1>
 Utilizing Computer Vision to decide whether food is mixed enough compared to selected sample image.<br>
 
+Yeom Junwoo
+
 <hr>
 <h2>Result</h2>
 <img src = "https://github.com/mongshil553/Computer-Vision-Food-Mixture-Level-Decision-System/assets/129606995/77074edb-4e76-4d7e-a113-cd6257a02e17" width="47%" height="47%" title="System Decision 1"> &nbsp;&nbsp;
